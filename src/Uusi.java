@@ -106,7 +106,7 @@ public class Uusi {
 		}
 			public void jarruta()
 			{
-				System.out.println("Auto jarruttaa");
+				System.out.println("toinen muutos");
 			}
 		}
 		
