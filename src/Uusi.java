@@ -86,8 +86,7 @@ public class Uusi {
 			public String merkki;
 			public String malli;
 			public int bensanMaara;
-			
-
+			public int tankkaa;
 			
 			public auto2()
 			
@@ -95,22 +94,21 @@ public class Uusi {
 				merkki="BMW";
 				malli="X4";
 				bensanMaara=10;
-				
+				tankkaa=10;
 			}
 			
-			public void Auto2(String merkki, String malli, int bensanMaara)
+			public void Auto2(String merkki, String malli, int bensanMaara, int tankkaa)
 			{
 				this.merkki=merkki;
 				this.malli=malli;
 				this.bensanMaara=bensanMaara;
-				
+				this.tankkaa=tankkaa;
 		}
 			public void jarruta()
 			{
-				System.out.println("Git muutos");
+				System.out.println("Auto jarruttaa");
 			}
 		}
-		
 		
 		
 
